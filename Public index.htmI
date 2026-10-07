@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="HistoricFi - AI financial technology for a brighter financial future.">
+  <title>HistoricFi | AI Financial Technology</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <header class="site-header">
+    <div class="container nav">
+      <div class="logo">
+        <span class="logo-mark">H</span>
+        <span>Historic<span>Fi</span></span>
+      </div>
+
+      <nav>
+        <a href="#features">Features</a>
+        <a href="#vision">Our Vision</a>
+        <a href="#signin">Sign In</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+    <section class="hero">
+      <div class="container hero-content">
+        <p class="eyebrow">AI FINANCIAL TECHNOLOGY</p>
+
+        <h1>
+          Banking intelligence for a
+          <span>brighter future.</span>
+        </h1>
+
+        <p class="hero-text">
+          HistoricFi is building an intelligent financial platform designed
+          to help people understand, manage, and plan their financial future.
+        </p>
+
+        <div class="hero-buttons">
+          <a href="#signin" class="button primary">Get Started</a>
+          <a href="#features" class="button secondary">Explore Features</a>
+        </div>
+
+        <p class="notice">
+          HistoricFi is an AI platform concept and is not currently a bank
+          or deposit-taking institution.
+        </p>
+      </div>
+    </section>
+
+    <section id="features" class="section">
+      <div class="container">
+
+        <div class="section-heading">
+          <p class="eyebrow">THE HISTORICFI PLATFORM</p>
+          <h2>Smarter financial tools powered by AI.</h2>
+          <p>
+            Our vision is to make financial information easier to understand
+            and easier to use.
+          </p>
+        </div>
+
+        <div class="features">
+
+          <article class="card">
+            <div class="icon">AI</div>
+            <h3>AI Money Assistant</h3>
+            <p>
+              An intelligent assistant designed to help users understand
+              their financial information and make informed decisions.
+            </p>
+          </article>
+
+          <article class="card">
+            <div class="icon">$</div>
+            <h3>Financial Insights</h3>
+            <p>
+              Turn financial information into simple insights, trends,
+              and useful recommendations.
+            </p>
+          </article>
+
+          <article class="card">
+            <div class="icon">◆</div>
+            <h3>Future Planning</h3>
+            <p>
+              Explore goals, planning tools, and strategies for building
+              a stronger financial future.
+            </p>
+          </article>
+
+          <article class="card">
+            <div class="icon">✓</div>
+            <h3>Security First</h3>
+            <p>
+              HistoricFi is being designed with privacy, security,
+              and responsible technology at the center.
+            </p>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <section id="vision" class="section vision">
+      <div class="container">
+
+        <div class="vision-box">
+          <p class="eyebrow">OUR VISION</p>
+
+          <h2>
+            Technology that puts financial intelligence
+            in your hands.
+          </h2>
+
+          <p>
+            HistoricFi aims to combine artificial intelligence,
+            financial education, planning, and modern technology
+            into one simple experience.
+          </p>
+        </div>
+
+      </div>
+    </section>
+
+    <section id="signin" class="section signin-section">
+      <div class="container">
+
+        <div class="signin-card">
+
+          <div class="section-heading">
+            <p class="eyebrow">HISTORICFI ACCESS</p>
+            <h2>Welcome back.</h2>
+            <p>Sign in to the HistoricFi platform.</p>
+          </div>
+
+          <form id="signin-form">
+
+            <label for="email">Email address</label>
+            <input
+              type="email"
+              id="email"
+              placeholder="you@example.com"
+              required
+            >
+
+            <label for="password">Password</label>
+            <input
+              type="password"
+              id="password"
+              placeholder="Enter your password"
+              required
+            >
+
+            <button type="submit" class="button primary full">
+              Sign In
+            </button>
+
+            <a href="#" class="forgot">Forgot password?</a>
+
+            <p id="signin-message" class="signin-message"></p>
+
+          </form>
+
+          <p class="demo-note">
+            Demo interface only. Real account authentication has not
+            been connected yet.
+          </p>
+
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <div class="container footer-content">
+      <div class="logo">
+        <span class="logo-mark">H</span>
+        <span>Historic<span>Fi</span></span>
+      </div>
+
+      <p>© 2026 HistoricFi. AI financial technology concept.</p>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById("signin-form").addEventListener("submit", function(event) {
+      event.preventDefault();
+
+      document.getElementById("signin-message").textContent =
+        "This is a demonstration sign-in. Secure authentication will be connected later.";
+    });
+  </script>
+
+</body>
+</html>
